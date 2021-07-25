@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-storage.js"></script>
+    <title>Document</title>
+</head>
+<body  id="container">
+    <div class="header">
+        <div class="header--left">
+            <h1>Xin chào</h1>
+            <h2>Đây là mọi điều cần biết về Trần Hải Nam</h2>
+        </div>
+    </div>
+    <div class="cover"></div>
+    <div class="content">
+        <div class="content--card">
+            <div class="content--card__cover"></div>
+            <div class="content--card__text">
+                <p>Giới thiệu chung</p>
+            </div>
+            <div class="content--card__action">
+                <button onclick="changeBtn()">Bấm vào đây để biết thêm thông tin</button>
+            </div>
+        </div>
+        <div class="content--card">
+            <div style="background-image: url(https://i0.wp.com/reachinghighernh.org/wp-content/uploads/2020/07/character-illustration-people-holding-speech-bubbles_53876-64665.jpg?resize=626%2C500&ssl=1);" class="content--card__cover"></div>
+            <div class="content--card__text">
+                <p>Người khác nói về Nam</p>
+            </div>
+            <div class="content--card__action">
+                <button onclick="cComment()">Bấm vào đây để comment</button>
+            </div>
+        </div>
+    </div>
+    <script src="background.js"></script>
+    <script src="function2.js"></script>
+</body>
+</html>
